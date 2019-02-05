@@ -4,7 +4,7 @@ function findMatching(drivers, word) {
   return drivers.filter(driver => driver.toLowerCase() == word.toLowerCase());
 }
 
-function fuzzyMatch(drivers, letter) {
+function fuzzyMatch(drivers, string) {
 
 }
 
